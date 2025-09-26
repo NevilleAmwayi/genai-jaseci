@@ -1,27 +1,27 @@
-Jac Projects – Guess Game and Calculator
+Jac Projects – Guess Game & Calculator
 
-This repository contains two beginner-friendly projects written in the Jac Language:
+This repository contains two beginner-friendly projects written in Jac Language:
 
-Guess Game – A number guessing game that provides hints using AI language models.
+🎲 Guess Game – A number guessing game that gives fun AI-generated hints using LLMs (Gemini or GPT).
 
-Calculator – A simple calculator that performs basic arithmetic operations.
+➗ Calculator – A simple calculator that performs basic arithmetic operations.
 
-Both projects demonstrate how to use Jac walkers, nodes, and integrate LLMs through byllm and litellm.
+Both projects demonstrate how to combine Jac walkers, nodes, and LLM integration using byllm and litellm.
 
-Features
+🚀 Features
 Guess Game
 
-Generates a random number between 1 and 10.
+Random number generated between 1 and 10.
 
-Allows the player to make a guess.
+Player guesses the number.
 
-Provides AI-generated hints when the guess is incorrect.
+If the guess is wrong, the AI provides a fun hint.
 
-Prints a success message when the guess is correct.
+If correct → 🎉 Congratulations message.
 
 Calculator
 
-Performs basic arithmetic operations:
+Supports basic operations:
 
 Addition
 
@@ -31,60 +31,59 @@ Multiplication
 
 Division
 
-Demonstrates walker logic for handling simple operations.
+Demonstrates Jac walker logic for handling input.
 
-Requirements
+🛠️ Requirements
 
-Jac Language installed
+Jac Language
+ installed
 
-Python 3.12 or higher
+Python 3.12+
 
-Virtual environment recommended
+Virtual environment (.env) recommended
 
-Dependencies: byllm and litellm
+byllm and litellm for LLM integration
 
 Install dependencies:
 
 pip install byllm litellm
 
-API Key Setup
+🔑 API Key Setup (for Gemini / GPT)
 
-For Gemini or GPT integration, export your API key in the terminal:
+Export your Gemini key (or other provider key) in terminal:
 
 export GEMINI_API_KEY="your_api_key_here"
 
 
-To make it permanent, add the line above to your ~/.bashrc or ~/.zshrc file.
+Make it permanent by adding it to ~/.bashrc or ~/.zshrc.
 
-Running the Projects
-
-To run the Guess Game:
-
+▶️ Running the Projects
+Guess Game
 jac run guess_game6.jac
 
-
-To run the Calculator:
-
+Calculator
 jac run calculator.jac
 
-Project Structure
+📂 Project Structure
 .
-├── guess_game6.jac        # Guess Game walker and setup
-├── guess_game6.impl.jac   # Guess Game logic implementation
-├── calculator.jac         # Calculator project
-├── .gitignore             # Ignored files and directories
+├── guess_game6.jac        # Main Guess Game walker + setup
+├── guess_game6.impl.jac   # Game logic implementation
+├── calculator.jac         # Simple calculator project
+├── .gitignore             # Git ignored files (env, cache, etc.)
 └── README.md              # Project documentation
 
-Future Improvements
+✨ Future Improvements
 
-Extend calculator functionality with advanced operations such as modulus and exponents.
+Add more operations to the calculator (exponents, modulus).
 
-Add multiplayer capability to the Guess Game.
+Make the Guess Game multiplayer.
 
-Store game scores or history in a database.
+Store game scores in a database.
 
-Author
+👤 Author
 
-This project was created by Neville Shem Amwayi.
-For inquiries, you can reach me at shemneville0@gmail.com
-.
+Neville Shem Amwayi
+
+💼 GitHub
+
+📧 shemneville0@gmail.com
