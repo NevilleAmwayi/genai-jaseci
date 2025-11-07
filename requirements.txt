@@ -1,0 +1,9 @@
+flask
+python-dotenv 
+jaclang 
+byllm 
+gitpython 
+pydriller 
+tree_sitter 
+streamlit 
+requests

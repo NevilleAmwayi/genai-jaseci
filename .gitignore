@@ -12,3 +12,4 @@ __pycache__/
 # OS / editor files
 .DS_Store
 *.swp
+.env
